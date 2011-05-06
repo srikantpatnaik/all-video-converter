@@ -1,0 +1,32 @@
+This is a simple script which converts video formats.
+
+Run the script once to create respective dirs.
+
+Put your video files in 'original_videos' folder.
+
+Run the script again, it will now create '.avi' files of all
+the respective videos in 'original_videos' folder.
+
+It will move the files into a '.tmp' folder before conversion.
+
+By default the hidden folder '.tmp' is deleted.
+
+You can comment the last line to prevent deletion.
+
+The script can be modified to convert any other video format by changing
+the 'output_file' as mentioned in the script at line 26.
+
+This script depends on Python,Mencoder,ffmpeg packages.
+
+use command :
+
+"python all-video-converter" 
+
+This script is the modified version of 'Auto_Videos_Subs'.
+
+
+Modified by
+
+Srikant Patnaik
+
+
